@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#input {
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid seagreen;
+}
+
+#button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: seagreen;
+    font-weight: bolder;
+    color: white;
+}
+
+.add {
+    width: 450px;
+    height: 35px;
+    background-color: seagreen;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.del-done {
+    width: 100px;
+    height: 30px;
+    background-color: chocolate;
+    border: none;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+#delete {
+    background-color: red !important;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.item {
+    display: flex;
+    flex: 1;
+}
+
+ul li {
+    width: 600px;
+    height: 30px;
+    border: 1px solid seagreen;
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-family: Tahoma;
+    flex: 1;
+}
+
+ul li button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn {
+    width: 75px;
+    height: 30px;
+    border: none;
+    background-color: seagreen;
+    font-weight: bold;
+    color: white;
+}
+
+.del{
+    background-color: red;
+}
+
+.mickey {
+    height: 500px;
+}
+
+.images {
+    position: relative;
+}
+
+
+
+.second-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.girl {
+    height: 350px;
+}
